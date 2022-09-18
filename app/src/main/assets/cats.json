@@ -1,0 +1,32 @@
+[
+  {
+    "id": "12",
+    "name": "Mr Mittens",
+    "imageUrl": "https://cdn2.thecatapi.com/images/05zuf73Wv.jpg"
+  },
+  {
+    "id": "13",
+    "name": "Luna",
+    "imageUrl": "https://cdn2.thecatapi.com/images/btn.jpg"
+  },
+  {
+    "id": "14",
+    "name": "Bob",
+    "imageUrl": "https://cdn2.thecatapi.com/images/iflKv00Zc.jpg"
+  },
+  {
+    "id": "15",
+    "name": "Mike",
+    "imageUrl": "https://cdn2.thecatapi.com/images/a7h.jpg"
+  },
+  {
+    "id": "16",
+    "name": "Bandit",
+    "imageUrl": "https://cdn2.thecatapi.com/images/P4xLtrwmc.jpg"
+  },
+  {
+    "id": "17",
+    "name": "El Diablo",
+    "imageUrl": "https://cdn2.thecatapi.com/images/MTgwMTIzMA.jpg"
+  }
+]

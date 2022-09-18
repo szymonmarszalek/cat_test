@@ -1,0 +1,40 @@
+This project is a simple verification of android developer skills. It is a very simple app that
+fetches data from json files and displays it. Let's say the json files are representing some remote
+data source. As you can see, the code is a mess and it is full of anti-patterns.
+
+What you need to do:
+
+1. Implement one of the clean code architectural patterns: MVP, MVVM or MVI. Separate view, model and
+logic into proper types of classes. You can do it all in a separate activity if you want. Get rid of
+the copy-pasted functions and replace them with some single util function.
+
+2. Replace existing LinearLayout for list presentation with properly implemented RecyclerView. The
+items should present the image, name, age and description of every cat. Use ConstraintLayout views
+or Jetpack Compose if you want.
+
+3. Currently, there are only 3 items shown - you need to show every item fetched from the json files.
+
+4. The images in the list are cropped and it looks bad - fix it in any way you want. You may replace
+the Fresco library with something else if you want. Perfect aspect ratio is not needed, but it would be nice.
+
+5. You can see that there are 3 different sources of data and they are "merged" in a very wrong way.
+Every object in one file has a corresponding object in the other files - "id" field connects them.
+Use rxjava zip function (or something else if you want) to fetch and merge all the data into CatModel class.
+One of the source files has some data missing - protect your list from any crashes caused by this.
+DO NOT MODIFY THE JSON FILES TO MERGE THE DATA!
+DO NOT REMOVE RX BASED FUNCTIONS FOR FETCHING THE DATA! - think of it as fetching the data from server
+
+6. Write some helpful unit tests for your presenter/view model (2 or 3 will be ok).
+
+Optional/nice to have features:
+- some nice (but basic) design for list items
+- basic dependency injection
+- basic error handling
+
+Provide the solution in a zip file or public github/bitbucket repository (with public access).
+Remember:
+- the code should compile and the app should not crash on start
+- indent the code
+- remove unused functions, commentary and imports
+
+Good luck!
